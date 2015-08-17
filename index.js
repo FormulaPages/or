@@ -21,7 +21,7 @@
 
     function OR() {
         var result = true;
-        var list = FLATTENt(arguments);
+        var list = (0, _FLATTEN['default'])(arguments);
         for (var i = 0; i < list.length; i++) {
             result = result && arguments[i];
             if (result) return true;
