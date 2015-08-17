@@ -1,6 +1,6 @@
 {
   "name": "formula-or",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Spreadsheet compatible OR function as JavaScript UMD Module",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/or/issues"
   },
-  "homepage": "https://github.com/FormulaPages/or#readme"
+  "homepage": "https://github.com/FormulaPages/or#readme",
+  "dependencies": {
+    "formula-flatten": "^1.0.0"
+  }
 }
